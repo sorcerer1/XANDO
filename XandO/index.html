@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<head>
+	<meta name="viewport" content=
+		"width=device-width, initial-scale=1.0">
+
+	<!-- CSS file Included -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="icon" type="image/svg" sizes="32x32" href="img/man-mage.svg">
+
+	<!-- JavaScript file included -->
+	<script src="script.js"></script>
+   
+	<!--Feel free to copy and edit -->
+
+</head>
+
+<body>
+	<div id="main">
+		<h1>X and O</h1>
+
+		<!-- Game Instructions -->
+		<p id="ins">Game starts by just Tap on
+			box<br><br>First Player starts as
+			<b>Player X</b><br>And<br>Second
+			Player as <b>Player 0</b>
+		</p>
+
+
+		<br><br>
+		<!-- 3*3 grid of Boxes -->
+		<input type="text" id="b1" onclick=
+			"myfunc_3(); myfunc();" readonly>
+
+		<input type="text" id="b2" onclick=
+			"myfunc_4(); myfunc();" readonly>
+
+		<input type="text" id="b3" onclick=
+			"myfunc_5(); myfunc();" readonly>
+		<br><br>
+
+		<input type="text" id="b4" onclick=
+			"myfunc_6(); myfunc();" readonly>
+			
+		<input type="text" id="b5" onclick=
+			"myfunc_7(); myfunc();" readonly>
+
+		<input type="text" id="b6" onclick=
+			"myfunc_8(); myfunc();" readonly>
+		<br><br>
+
+		<input type="text" id="b7" onclick=
+			"myfunc_9(); myfunc();" readonly>
+
+		<input type="text" id="b8" onclick=
+			"myfunc_10();myfunc();" readonly>
+
+		<input type="text" id="b9" onclick=
+			"myfunc_11();myfunc();" readonly>
+
+		<!-- Grid end here -->
+		<br><br><br>
+		<!-- Button to reset game -->
+		<button id="but" onclick="myfunc_2()">
+			RESET
+		</button>
+
+		<br><br>
+		<!-- Space to show player turn -->
+		<p id="print"></p>
+
+		<footer class="footer">
+			<p>DONE BY DEV SORCERER 🧙</p>
+			<div class="social">
+					<i class="fab fa-facebook"style="color:blue; font-size: 40px;"></i>
+				
+					<i class="fab fa-instagram" style="color: red; font-size: 40px; padding-left: 8px;"></i>
+			
+					<i class="fab fa-twitter"style="color: rgb(25, 186, 231); font-size: 37px; padding: right 8px;"></i>
+				
+					<i class="fab fa-linkedin" style="color: rgb(0, 27, 235);font-size: 37px; padding: left 8px;"></i>
+				</a>
+			</div>
+		</footer>
+
+	</div>
+</body>
+
+</html>
